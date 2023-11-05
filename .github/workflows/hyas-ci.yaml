@@ -10,7 +10,6 @@ jobs:
   build:
     name: "Build on Ubuntu"
     runs-on: ubuntu-latest
-    timeout-minutes: 3
 
     steps:
     - name: Checkout
