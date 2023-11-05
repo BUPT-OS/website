@@ -5,7 +5,16 @@ on:
     branches: main
   pull_request:
     branches: main
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  
 jobs:
   build:
     name: "Build on Ubuntu"
@@ -26,6 +35,10 @@ jobs:
     - name: Run linters
       run: npm run lint --if-present
 
+   - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v3
+        
     - name: Build site
       run: |
             node_modules/.bin/hugo/hugo \
