@@ -27,7 +27,11 @@ jobs:
       run: npm run lint --if-present
 
     - name: Build site
-      run: npm run build
+      run: |
+            node_modules/.bin/hugo/hugo \
+            --gc \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"      
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v2
