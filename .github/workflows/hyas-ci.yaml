@@ -45,7 +45,7 @@ jobs:
     - name: Run linters
       run: npm run lint --if-present
 
-   - name: Setup Pages
+    - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
         
