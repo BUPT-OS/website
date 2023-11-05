@@ -1,0 +1,9 @@
+[[main]]
+  name = "GitHub"
+  url = "https://github.com/rust-real-time-os/RTOS/"
+  weight = 10
+
+[[social]]
+  name = "Zulip"
+  url = "https://rros.zulipchat.com/"
+  weight = 20

@@ -1,0 +1,68 @@
+# [[docs]]
+#   name = "Prologue"
+#   weight = 10
+#   identifier = "prologue"
+#   url = "/docs/prologue/"
+
+[[docs]]
+    name = "Help"
+    weight = 60
+    identifier = "help"
+    url = "/docs/help/"
+
+# [[docs]]
+#   name = "Lorem"
+#   weight = 70
+#   identifier = "lorem"
+#   url = "/docs/lorem/"
+
+[[guide]]
+  name = "Lorem"
+  weight = 10
+  identifier = "lorem"
+  url = "/guide/lorem/"
+
+[[tutorial]]
+  name = "Lorem"
+  weight = 10
+  identifier = "lorem"
+  url = "/tutorial/lorem/"
+
+[[main]]
+  name = "Docs"
+  url = "/docs/guides/example-guide/"
+  weight = 10
+
+[[main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 30
+
+# [[social]]
+#   name = "Twitter"
+#   pre = '<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg>'
+#   url = "https://twitter.com/getdoks"
+#   weight = 10
+# 
+[[social]]
+    name = "Zulip"
+    pre = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256"><defs><linearGradient id="logosZulipIcon0" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0%" stop-color="#24ADFF"/><stop offset="100%" stop-color="#7B71FF"/></linearGradient></defs><path fill="url(#logosZulipIcon0)" d="M128 0c70.692 0 128 57.308 128 128c0 70.692-57.308 128-128 128C57.308 256 0 198.692 0 128C0 57.308 57.308 0 128 0Zm-6.32 118.222l-45.892 40.979c-4.728 3.72-7.83 9.86-7.83 16.766c0 11.279 8.274 20.508 18.386 20.508h86.247c10.112 0 18.386-9.23 18.386-20.508c0-11.28-8.274-20.507-18.386-20.507H107.3c-.968 0-1.58-1.16-1.108-2.104l16.833-33.703c.615-.983-.493-2.161-1.345-1.43Zm50.91-58.86H86.345c-10.112 0-18.386 9.227-18.386 20.508c0 11.279 8.274 20.508 18.386 20.508h65.292c.968 0 1.58 1.16 1.108 2.103l-16.834 33.704c-.615.983.494 2.161 1.346 1.43l45.892-40.984c4.727-3.723 7.829-9.86 7.829-16.767c0-11.278-8.274-20.507-18.386-20.501Z"/></svg>'
+    url = "https://rros.zulipchat.com/"
+    weight = 20
+
+[[social]]
+  name = "GitHub"
+  pre = '<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg>'
+  url = "https://github.com/rust-real-time-os/RTOS"
+  post = "v0.1.0"
+  weight = 30
+
+[[footer]]
+  name = "Privacy Policy"
+  url = "/privacy/"
+  weight = 10
+
+# [[footer]]
+#   name = "Terms of Service"
+#   url = "/terms/"
+#   weight = 20
