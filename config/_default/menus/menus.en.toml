@@ -34,8 +34,8 @@
   weight = 10
 
 [[main]]
-  name = "Blog"
-  url = "/blog/"
+  name = "News"
+  url = "/news/"
   weight = 30
 
 # [[social]]
