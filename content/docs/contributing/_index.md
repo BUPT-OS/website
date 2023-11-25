@@ -1,15 +1,15 @@
 ---
-title: "Tutorial"
+title: "Contributing"
 description: ""
 summary: ""
-date: 2023-11-25T13:47:46+08:00
-lastmod: 2023-11-25T13:47:46+08:00
+date: 2023-11-25T19:36:51+08:00
+lastmod: 2023-11-25T19:36:51+08:00
 draft: false
 menu:
   docs:
     parent: ""
-    identifier: "tutorial-0b687c20fc2ec5e58e7dbba958520472"
-weight: 1
+    identifier: "contributing-a7316805428baf99168bc6ec4bd05690"
+weight: 999
 toc: true
 seo:
   title: "" # custom title (optional)
