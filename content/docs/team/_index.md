@@ -1,15 +1,15 @@
 ---
-title: "Contributing"
+title: "Team"
 description: ""
 summary: ""
-date: 2023-11-25T19:36:51+08:00
-lastmod: 2023-11-25T19:36:51+08:00
+date: 2023-11-26T21:44:06+08:00
+lastmod: 2023-11-26T21:44:06+08:00
 draft: false
 menu:
   docs:
     parent: ""
-    identifier: "contributing-a7316805428baf99168bc6ec4bd05690"
-weight: 200
+    identifier: "team-1546f7291cff808e5b9c194174d2ac7f"
+weight: 750
 toc: true
 seo:
   title: "" # custom title (optional)
