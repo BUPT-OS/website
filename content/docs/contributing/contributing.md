@@ -29,7 +29,7 @@ It is easy to contribute to RROS. Any improvement, such as bug/typo fix, code re
 
 ## Contribute steps
 
-1. You can find the tasks either by yourself or start with one of the [first good issues]().
+1. You can either find the tasks by yourself or start with one of the [first good issues]().
 2. Claim the task if there is already an issue. If not, create a corresponding issue and  explaining the task background; if it is a bug discovered by yourself, you also need to create an issue before submitting the code.
 3. Complete the development and submit the code in the form of a PR, and pass the CI test on GitHub;
 4. Modify the code based on the opinions and feedback of reviewers until it is merged, and then every PR merge requires approval from the maintainer of this subsystem.  PR needs to be merged in rebase format, without intermediate merge commits.

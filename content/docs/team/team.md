@@ -22,16 +22,23 @@ RROS is developed and maintained mainly by a research group at Beijing Universit
 
 PIs: Prof. [Mengwei Xu](https://xumengwei.github.io/) and Prof. [Shangguang Wang](http://sguangwang.com/main.htm).
 
-Current core maintainers: Hongyu Li (add github link or email), XXX.
+Current core maintainers: 
+- [Hongyu Li](https://github.com/Richardhongyu).
+- [Bochen Wang]().
+- [Jiangtao Hu](https://github.com/Lukeehujt). 
+- [Qichen Qiu](). 
+- [Yuxuan Shan](). 
+- [Jiajun Du](https://github.com/JiajunDu). 
+- [Yexuan Yang](https://github.com/yexuanyang).
+- [Xinge Wang]().
 
-Other contributors (mostly retired from RROS now): Bowen Zhang (add github link or email), XXX.
+Current interns:
+- [Tianyu She](). He tries to rewrite the raspiberry GPIO drivers in RFL. This can be the first step to write realtime gpio drivers in RROS.
+- [Zitai Sun](sunzitai_9432@qq.com). He enables the debug ability of RROS in the RPI4 and contributing to the observe factory.
+- [Qiuxiang Kai](). He reproduces the reboot bug and contributing to the control factory.
 
+Other contributors (mostly retired from RROS now):
+- [Bowen Zhang](). He contributes to timer&&clock/memory/sched subsystems, and the improvement in dynamic memory allcations of RROS. As the inital members of this project, he has already graduted from our group as a master. Good luck on his further work!
+- [Guiying Li](). He drives camera via opencv in RROS and trying to backport libcamera to RROS. He also explores to call Rust structers in C to write realtime drivers. He was our intern before. Hopes he get luck on his PHD application.
 
-
-Besides, we would like also thanks the followings to contribute to our project:
-- @zhangbowen for contributing to timer&&clock/memory/sched subsystems, and the improvement in dynamic memory allcations of RROS. As the inital members of this project, he has already graduted from our group as a master. Good luck on his further work!
-- @shetianyu for trying to rewrite the raspiberry GPIO drivers in RFL. This can be the first step to write realtime gpio drivers in RROS.
-- @liguiying for running camera via opencv in RROS and trying to backport libcamera to RROS. He also explores to call Rust structers in C to write realtime drivers.
-- @sunzitai for enabling the debug ability of RROS in the RPI4 and contributing to the observe factory.
-- @qiuxiangkai for reproducing the reboot bug and contributing to the control factory.
 

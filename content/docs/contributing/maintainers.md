@@ -4,7 +4,7 @@ description: ""
 summary: ""
 date: 2023-11-26T21:55:19+08:00
 lastmod: 2023-11-26T21:55:19+08:00
-draft: true
+draft: false
 menu:
   docs:
     parent: ""
@@ -19,13 +19,12 @@ seo:
 ---
 
 Maintainer List:
-
-Thread/Scheduling: Bochen, Jiajun, Yuxuan, Xinge
-Synchronization: Xinge
-Interrupt/Clock: Hongyu, Yuxuan, Qichen
-Memory: Qichen, Hongyu, Yexuan
-Network: Qichen, Yuxuan
-File (proxy/xbuf): Jiangtao, Jiajun, Xinge
-Factory/Syscall: Jiangtao, Hongyu, Yexuan
-Observe: Jiajun, Bochen
-Test Subsystem: Hongyu, Jiangtao, Yexuan
+- Thread/Scheduling: Bochen, Jiajun, Yuxuan, Xinge
+- Synchronization: Xinge
+- Interrupt/Clock: Hongyu, Yuxuan, Qichen
+- Memory: Qichen, Hongyu, Yexuan
+- Network: Qichen, Yuxuan
+- File (proxy/xbuf): Jiangtao, Jiajun, Xinge
+- Factory/Syscall: Jiangtao, Hongyu, Yexuan
+- Observe: Jiajun, Bochen
+- Test Subsystem: Hongyu, Jiangtao, Yexuan
