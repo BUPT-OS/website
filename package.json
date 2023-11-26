@@ -11,7 +11,6 @@
     "lint": "npm run lint:markdown",
     "lint:scripts": "eslint --cache themes/doks/assets/js",
     "lint:styles": "stylelint --cache \"themes/doks/assets/scss/**/*.{css,sass,scss}\"",
-    "lint:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "exec-bin node_modules/.bin/hugo/hugo --cleanDestinationDir --minify",
     "preview": "http-server --gzip --brotli --ext=html --cors",
