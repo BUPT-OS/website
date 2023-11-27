@@ -24,13 +24,13 @@ PIs: Prof. [Mengwei Xu](https://xumengwei.github.io/) and Prof. [Shangguang Wang
 
 Current core maintainers: 
 - [Hongyu Li](https://github.com/Richardhongyu).
-- [Bochen Wang]().
+- [Bochen Wang](https://github.com/bocWang).
 - [Jiangtao Hu](https://github.com/Lukeehujt). 
-- [Qichen Qiu](). 
-- [Yuxuan Shan](). 
+- [Qichen Qiu](https://github.com/ruiqurm). 
+- [Yuxuan Shan](https://github.com/shannmu). 
 - [Jiajun Du](https://github.com/JiajunDu). 
 - [Yexuan Yang](https://github.com/yexuanyang).
-- [Xinge Wang]().
+- [Xinge Wang](https://github.com/was-saw).
 
 Current interns:
 - [Tianyu She](). He tries to rewrite the raspiberry GPIO drivers in RFL. This can be the first step to write realtime gpio drivers in RROS.
