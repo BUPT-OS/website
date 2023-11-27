@@ -51,7 +51,7 @@ jobs:
         
     - name: Build site
       env:
-        HUGO_PARAMS_githubRepoName=website
+        HUGO_PARAMS_githubRepoName: website
       run: |
             node_modules/.bin/hugo/hugo \
             --gc \
