@@ -18,31 +18,29 @@ seo:
   noindex: false # false (default) or true
 ---
 
-We plan to enhance RROS in the follow three aspects. 
+We aim to augment RROS across three distinct dimensions:
 
 ## RROS kernel
 
-- [ ] SMP ability of RROS kernel
-  - Currently, RROS is capable of running in QEMU with smp. But there are still bugs running in the rpi4b.
-- [ ] Performance measurement 
-  - [ ] Latmus 
-    - Latmus is still in developing.
-  - [ ] Hestic
-    - Hestic is still in developing.
-- [ ] Unsafe eliminate
-   - [ ] Use RFL interface rather than directly call bindgen the APIs
-   - [ ] Rustify RROS by refactoring subsystems
-- [ ] Catch up with linux-dovetial mainline and publish releases
-  - RROS is pinned to Linux 5.13 for now. We plan to merge to the linux-dovetail mainline after most of the basic functions of RFL is merged into the linux-dovetail.
+- [ ] SMP Enhancement
+  - Presently, RROS demonstrates proficiency in executing within QEMU environments utilizing SMP. Nonetheless, anomalies persist when operating on the rpi4b platform.
+- [ ] Benchmarking and Performance Analysis
+  - [ ] Latmus Evolution
+    - The development of Latmus remains an ongoing endeavor.
+  - [ ] Hestic Maturation
+    - Hestic continues its trajectory of refinement and development.
+- [ ] Eradication of Unsafe Practices
+   - [ ] Prioritize utilization of the RFL interface over direct invocations of bindgen APIs
+   - [ ] Transform and elevate RROS through comprehensive subsystem refactoring, adhering to Rust paradigms
+- [ ] Synchronizing with Linux-Dovetail’s Forefront and Release Dissemination
+  - RROS is pinned to Linux 5.13 for now. We plan to merge to the linux-dovetail mainline after most of the basic functions of RFL are merged into the linux-dovetail.
 
 
 ## Libevl compatibility
 
-We plan to be compatible of the libevl interfaces and capable of running all of the libevl test programs.
-As for now we support the r27 libevl and modify it temproraly to adjust RROS.
+Our objective encompasses attaining compatibility with libevl interfaces and ensuring full operability of all libevl diagnostic programs. Current developments have led to the provisional support of r27 libevl, with bespoke modifications catering to RROS requisites.
 
-In the factories, we still have distence compared with evl.
-Currently, we have already support the following test programs.
+In the realm of `factory`, a discernible disparity with linux-evl remains. To date, the following test programs have been successfully integrated:
 |program|State|
 |--|--|
 |proxy-echo|√|
@@ -50,14 +48,13 @@ Currently, we have already support the following test programs.
 |||
 |||
 
-## Satellite scenerio enhancement
+## Satellite Scenario Fortification
 
-The satellite scenerio has high requirement in safety.
-Thus, equipment RROS with abilities designed for the satellite is necessary.
+Given the stringent safety protocols inherent in satellite operations, it is imperative to endow RROS with features tailored for such environments.
 
-- [ ] Fault tolerant in dual-kernel
-  - There are bit flips in the space. If this happends in the key code seggment, it can cause computer to crash. 
-  - Besides, Linux kernel maybe crash. We can not allow RROS to crash in this condition.
-  - Thus, We need to enhance the fault tolerant ability in RROS. The aim to let RROS still be alive while Linux breaks.
-- [ ] SMP enhancement
-  - In the satellite, different sensors are connetced to OBC. If we want to replace radiation-enhanced OBC with a normal PC computer and move the computing ability of sensors to the OBC, the OBC must handle different tasks in the sametime.
+- [ ] Fault-tolerant in dual-kernel
+  - The occurrence of bit flips in space, particularly in vital code segments, can precipitate kernel malfunctions.
+  - In the event of a Linux kernel failure, it is crucial to maintain RROS’s operational integrity.
+  - The objective is to bolster RROS's resilience, ensuring its functionality in the face of Linux system failures.
+- [ ] SMP Augmentation
+  - Onboard satellite systems, especially those interfacing with diverse sensors, necessitate robust multitasking capabilities. The vision is to substitute radiation-hardened Onboard Computers (OBCs) with standard PCs, transferring sensor computation to these OBCs, thereby necessitating enhanced SMP capabilities within RROS.
