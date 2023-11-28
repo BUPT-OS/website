@@ -33,12 +33,12 @@ Current core maintainers:
 - [Xinge Wang](https://github.com/was-saw).
 
 Current interns:
-- [Tianyu She](). He tries to rewrite the raspiberry GPIO drivers in RFL. This can be the first step to write realtime gpio drivers in RROS.
-- [Zitai Sun](sunzitai_9432@qq.com). He enables the debug ability of RROS in the RPI4 and contributing to the observe factory.
-- [Qiuxiang Kai](). He reproduces the reboot bug and contributing to the control factory.
+- [Tianyu She](https://github.com/DnullP).
+- [Zitai Sun](https://github.com/StevenFryto).
+- [XiangKai Qiu](https://github.com/shtiy2023).
 
 Other contributors (mostly retired from RROS now):
-- [Bowen Zhang](). He contributes to timer&&clock/memory/sched subsystems, and the improvement in dynamic memory allcations of RROS. As the inital members of this project, he has already graduted from our group as a master. Good luck on his further work!
-- [Guiying Li](). He drives camera via opencv in RROS and trying to backport libcamera to RROS. He also explores to call Rust structers in C to write realtime drivers. He was our intern before. Hopes he get luck on his PHD application.
+- [Bowen Zhang](https://github.com/Pettttter1). He contributes to timer&&clock/memory/sched subsystems, and the improvement in dynamic memory allcations of RROS. As the inital members of this project, he has already graduted from our group as a master. Good luck on his further work!
+- [Guiying Li](https://github.com/GuiyinLi). He drives camera via opencv in RROS and trying to backport libcamera to RROS. He also explores to call Rust structers in C to write realtime drivers. He was our intern before. Hopes he get luck on his PHD journey!
 
 

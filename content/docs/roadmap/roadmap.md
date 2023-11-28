@@ -40,13 +40,15 @@ We aim to augment RROS across three distinct dimensions:
 
 Our objective encompasses attaining compatibility with libevl interfaces and ensuring full operability of all libevl diagnostic programs. Current developments have led to the provisional support of r27 libevl, with bespoke modifications catering to RROS requisites.
 
-In the realm of `factory`, a discernible disparity with linux-evl remains. To date, the following test programs have been successfully integrated:
+In the realm of `factory`, a discernible disparity with linux-evl remains. RROS supports proxy, xbuf and thread factories. The support of other factories will be released soon. To date, the following test programs have been successfully integrated:
 |program|State|
 |--|--|
 |proxy-echo|√|
-|xbuf|√|
-|||
-|||
+|proxy-eventfd|√|
+|proxy-pipe|√|
+|basic-xbuf|√|
+|simple-clone|√|
+|detach-self|√|
 
 ## Satellite Scenario Fortification
 

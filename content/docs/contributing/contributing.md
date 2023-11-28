@@ -32,7 +32,7 @@ Contributing to RROS is a streamlined process. We welcome a wide spectrum of enh
 1. You can find the tasks by yourself or start with one of the [first good issues]().
 2. Claim the task if there is already an issue. Otherwise, create a new issue detailing the task background; for self-identified bugs, an issue must precede the code submission.
 3. Fulfill the development criteria, submit your code via a Pull Request (PR), and ensure it passes the GitHub Continuous Integration (CI) tests.
-4. Revise your submission based on reviewer feedback until its incorporated. Note that every PR merge demands approval from the respective subsystem's maintainer. PRs should be merged in rebase format, eschewing intermediate merge commits.
+4. Revise your submission based on reviewer feedback until its incorporated. Note that every PR merge demands approval from the respective subsystem's maintainer. When you address the concerns, do not add a new commit. Just replace reset the old commits, add new commits and push force your original patches. PRs should be merged in rebase format, eschewing intermediate merge commits.
 5. If you have any questions about the subsystem, you can find the relevant maintainers [here](https://rust-real-time-os.github.io/website/docs/contributing/maintainers).
 
 ## Format for Submissions
@@ -51,6 +51,7 @@ Contributing to RROS is a streamlined process. We welcome a wide spectrum of enh
 4. Additional Note:
   -  Refrain from including Chinese text in the commit message.
   -  If using English colons, add a space after them
+  -  Does not forget to add "Signed-off-by sign" in the git commit message.
 5.  A PR commit Example:
     ```
       Title
@@ -62,4 +63,6 @@ Contributing to RROS is a streamlined process. We welcome a wide spectrum of enh
       arguments of this syscall.
 
       https://github_issue_link
+
+      Signed-off-by: 
     ```
