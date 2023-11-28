@@ -24,18 +24,18 @@ PIs: Prof. [Mengwei Xu](https://xumengwei.github.io/) and Prof. [Shangguang Wang
 
 Current core maintainers: 
 - [Hongyu Li](https://github.com/Richardhongyu).
-- [Bochen Wang]().
+- [Bochen Wang](https://github.com/shannmu).
 - [Jiangtao Hu](https://github.com/Lukeehujt). 
-- [Qichen Qiu](). 
-- [Yuxuan Shan](). 
+- [Qichen Qiu](https://github.com/ruiqurm). 
+- [Yuxuan Shan](https://github.com/shannmu). 
 - [Jiajun Du](https://github.com/JiajunDu). 
 - [Yexuan Yang](https://github.com/yexuanyang).
-- [Xinge Wang]().
+- [Xinge Wang](https://github.com/was-saw).
 
 Current interns:
-- [Tianyu She](). He tries to rewrite the raspiberry GPIO drivers in RFL. This can be the first step to write realtime gpio drivers in RROS.
-- [Zitai Sun](sunzitai_9432@qq.com). He enables the debug ability of RROS in the RPI4 and contributing to the observe factory.
-- [Qiuxiang Kai](). He reproduces the reboot bug and contributing to the control factory.
+- [Tianyu She](https://github.com/DnullP).
+- [Zitai Sun](https://github.com/StevenFryto).
+- [XiangKai Qiu](https://github.com/shtiy2023).
 
 Other contributors (mostly retired from RROS now):
 - [Bowen Zhang](). He contributes to timer&&clock/memory/sched subsystems, and the improvement in dynamic memory allcations of RROS. As the inital members of this project, he has already graduted from our group as a master. Good luck on his further work!
