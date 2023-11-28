@@ -19,45 +19,45 @@ seo:
 ---
 
 > **Before contributing**:
-> If you are unfamiliar with the basic knowledge about RROS/Rust/Dual-kernel, you can do our [lab](https://github.com/rust-real-time-os/os_lab) first to learn them.
+> If you are unfamiliar with RROS/Rust/Dual-kernel, we recommend embarking on our [lab](https://github.com/rust-real-time-os/os_lab) exercises as an introduction.
 
-It is easy to contribute to RROS. Any improvement, such as bug/typo fix, code refactor, new feature, performance evalute/improvement, realtime program migration, and board adaptive is welcome! The basic follow is as follows:
-- (Option)Learn the basic knowledge about RROS(you can find that in our Lab).
+Contributing to RROS is a streamlined process. We welcome a wide spectrum of enhancements including, but not limited to, rectification of bugs or typographical errors, code refinement, introduction of novel features, performance optimization, migration of real-time programs, and board compatibility adjustments. The typical contribution workflow is outlined below:
+- (Optional)Learn the basic knowledge about RROS(accessible in our Lab).
 - Read the tutorial to clone the data and run RROS.
-- Follow the [steps](#contribute-steps) below to make your change.
-- Contribute the code in the right [format](#submission-format).
+- Adhere to the [prescribed steps](#steps-for-contribution) to implement your modifications.
+- Contribute the code in the [specified format](#format-for-submissions).
 
-## Contribute steps
+## Steps for Contribution
 
-1. You can either find the tasks by yourself or start with one of the [first good issues]().
-2. Claim the task if there is already an issue. If not, create a corresponding issue and  explaining the task background; if it is a bug discovered by yourself, you also need to create an issue before submitting the code.
-3. Complete the development and submit the code in the form of a PR, and pass the CI test on GitHub;
-4. Modify the code based on the opinions and feedback of reviewers until it is merged, and then every PR merge requires approval from the maintainer of this subsystem.  PR needs to be merged in rebase format, without intermediate merge commits.
-5. If you have any questions about the subsystem, you can find the corresponding maintainers in [here](https://rust-real-time-os.github.io/website/docs/contributing/maintainers).
+1. You can find the tasks by yourself or start with one of the [first good issues]().
+2. Claim the task if there is already an issue. Otherwise, create a new issue detailing the task background; for self-identified bugs, an issue must precede the code submission.
+3. Fulfill the development criteria, submit your code via a Pull Request (PR), and ensure it passes the GitHub Continuous Integration (CI) tests.
+4. Revise your submission based on reviewer feedback until its incorporated. Note that every PR merge demands approval from the respective subsystem's maintainer. PRs should be merged in rebase format, eschewing intermediate merge commits.
+5. If you have any questions about the subsystem, you can find the relevant maintainers [here](https://rust-real-time-os.github.io/website/docs/contributing/maintainers).
 
-## Submission format
+## Format for Submissions
 
 1. First, the format of the commit title should be as follows: `language: subsystem: content`
   - Language: rust/c:
   - Subsystem: the involved subsystem;
-  - Content: the main content of this modification;
-    - If it is a bug fix, it should be: fix the bug of ......
-    - If it is a feature, it needs to specifically indicate the content of the feature
-    - If it is a round patch, it needs to specify the range of the round patch. The round patch cannot be included in a large commit; keep the shape of the original commit
-2. The commit message needs to specifically describe the content of this modification
-  - If it is a commit related to functionality, describe adding the feature or modifying the specific content of the feature
-  - If it is a bug fix commit, explain the cause of the bug and how it was fixed in the bug fix
+  - Content: a succinct description of the modification;
+    - For bug fix, it should be: fix the bug of ......
+    - For new features, clearly delineate the feature's attributes.
+    - For patch issues, it needs to specify the range of the round patch. The round patch cannot be included in a large commit; keep the shape of the original commit
+2. The commit message must thoroughly describe the content of this modification
+  - For functionality-related commits: outline the added feature or the specific alterations made.
+  - For bug fix commits: elucidate the bug's origin and the methodology of its resolution.
 3. Add an issue link on a separate line in the commit message for each one to facilitate traceability
-4.  Note:
-  -  Chinese text should not be included in the commit message
-  -  If use English colons, add a space after them
+4. Additional Note:
+  -  Refrain from including Chinese text in the commit message.
+  -  If using English colons, add a space after them
 5.  A PR commit Example:
     ```
       Title
       rust: factory: add the oob_write syscall
 
       Message
-      The oob_write syscall is one of the three syscalls in rros. Each factory 
+      The oob_write syscall is one of the three syscalls in RROS. Each factory 
       implements the oob_write file ops and has different commands according to the 
       arguments of this syscall.
 

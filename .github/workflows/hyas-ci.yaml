@@ -50,6 +50,8 @@ jobs:
       uses: actions/configure-pages@v3
         
     - name: Build site
+      env:
+        HUGO_PARAMS_githubRepoName: website
       run: |
             node_modules/.bin/hugo/hugo \
             --gc \

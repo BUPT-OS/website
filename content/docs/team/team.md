@@ -24,7 +24,7 @@ PIs: Prof. [Mengwei Xu](https://xumengwei.github.io/) and Prof. [Shangguang Wang
 
 Current core maintainers: 
 - [Hongyu Li](https://github.com/Richardhongyu).
-- [Bochen Wang](https://github.com/shannmu).
+- [Bochen Wang](https://github.com/bocWang).
 - [Jiangtao Hu](https://github.com/Lukeehujt). 
 - [Qichen Qiu](https://github.com/ruiqurm). 
 - [Yuxuan Shan](https://github.com/shannmu). 
