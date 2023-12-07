@@ -59,9 +59,9 @@ This setup will get your Raspberry Pi up and running with the necessary hardware
    - Set up Docker container network penetration using VSCode and install `openssh-server`.
    - Compile the kernel and modules in the `linux-dovetail-v5.13-dovetail-rebase` directory. Check for successful compilation and then execute `./copy_to_raspberry.sh`.
 
-   ![Alt text](https://bupt-os.github.io/website/architecture.png/raspi1.png)
+   <!-- ![Alt text](https://bupt-os.github.io/website/architecture.png/raspi1.png)
 
-   ![Alt text](https://bupt-os.github.io/website/architecture.png/raspi2.png)
+   ![Alt text](https://bupt-os.github.io/website/architecture.png/raspi2.png) -->
 
 2. **Transfer to Local Machine**:
    - Use `scp` to transfer files like `modules.tar.bz2`, `dtb.tar.bz2`, `Image`, and `overlays.tar.bz2` from the container to your local machine.
