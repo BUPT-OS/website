@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "raspi-908fc5d02cad5f066f8452c926ba3e49"
-weight: 999
+weight: 200
 toc: true
 seo:
   title: "" # custom title (optional)

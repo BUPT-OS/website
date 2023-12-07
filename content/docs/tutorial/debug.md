@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "debug-4dbb806433bfd75e0e9242ef690b7f5a"
-weight: 999
+weight: 250
 toc: true
 seo:
   title: "" # custom title (optional)
