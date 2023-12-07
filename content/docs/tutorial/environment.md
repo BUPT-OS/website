@@ -1,5 +1,5 @@
 ---
-title: "docker"
+title: "environment"
 description: "how to do"
 summary: ""
 date: 2023-11-25T13:48:54+08:00
@@ -18,9 +18,18 @@ seo:
   noindex: false # false (default) or true
 ---
 
+# Environment
 
+You can have the environment either with docker or build yourself.
 
-We provide a basic docker environment of RROS can be run.
+## docker 
 
-Along with the RFL , we also.
+We provide a docker environment here.
+TODO: add the document.
+
+## local
+
+If you enjoy the fun of configuration everything by yourself, you can also build your development environment.
+
+TODO: add the document.
 

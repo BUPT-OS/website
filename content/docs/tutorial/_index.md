@@ -17,3 +17,27 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
+# Tutorial
+
+> If you are new to the kernel world and are not familiar with the tools like, qemu, gdb, git, and b4, you can have a look at [here](https://bupt-os.github.io/website/docs/tutotial/learn). Learn by doing, you can skip this for now. When you need to use one of these, go back to here.
+
+## Prepare the development environment
+
+Prepare your self with a [proper environment](https://bupt-os.github.io/website/docs/tutotial/environment).
+
+## Compile && Run
+
+[Get started](https://bupt-os.github.io/website/docs/tutotial/run) with new compile method and simple qemu commands.
+
+## File system
+
+Equip RROS with powerful [filesystem](https://bupt-os.github.io/website/docs/tutotial/raspi).
+
+## Deploy the RROS in the raspi
+
+It is time to see [how it works](https://bupt-os.github.io/website/docs/tutotial/raspi) in the real world!
+
+## How to Debug RROS
+
+If you want to debug RROS, you can have a look at [here](https://bupt-os.github.io/website/docs/tutorial/debug).
