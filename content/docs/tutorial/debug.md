@@ -22,7 +22,116 @@ seo:
 
 ### Debug in the qemu
 
-*In progres*
+When debugging, you might need to lower the compilation level. The provided `.config` file should already be configured for this, but if not, you can manually configure it.
+
+#### Entering `menuconfig`
+
+#### GDB Setup
+If you encounter issues, consider the following:
+
+1. **Enlarge the Window**: Sometimes, the display issues can be resolved by simply increasing the window size.
+2. **Check Bash Environment Variables**: Ensure `$CROSS_COMPILE` and `$ARCH` are set. These should have been configured earlier.
+   - Add to `~/.bashrc`:
+     ```
+     export CROSS_COMPILE=aarch64-linux-gnu-
+     export ARCH=arm64
+     ```
+   - Set `kernel hacking > Rust Hacking > Optimization level > debug-level` to the lowest.
+
+#### Using GDB for Remote Debugging
+To debug the kernel, add `-s -S` to the kernel startup command (`-s` starts the gdb server, `-S` halts execution until `continue` is executed). For example:
+
+```
+qemu-system-aarch64 -nographic -kernel arch/arm64/boot/Image -initrd ../arm64_ramdisk/rootfs.cpio.gz -machine type=virt -cpu cortex-a57 -append "rdinit=/linuxrc console=ttyAMA0" -device virtio-scsi-device -smp 1 -m 4096 -s -S
+```
+
+Then, in a new window, start gdb (e.g., `rust-gdb`). In gdb, enter:
+
+```
+rust-gdb \
+--tui vmlinux \
+-ex "target remote localhost:1234" \
+-ex "set architecture aarch64" \
+-ex "set auto-load safe-path" \
+-ex "set lang rust"
+```
+
+#### Setting Breakpoints in GDB
+For example, to set a breakpoint at line 159 in `kernel/rros/init.rs`, use:
+
+```
+b kernel/rros/init.rs:159
+```
+
+Then start debugging with `continue`.
+
+#### Common GDB Commands
+
+| Command         | Function                                |
+|-----------------|-----------------------------------------|
+| `c`             | Continue to the next breakpoint         |
+| `b filename:lineno` | Set a breakpoint at specified line    |
+| `p variable`    | Print a variable                        |
+| `x/`            | Print data at an address                |
+| `finish`        | Jump to the end of the current function |
+| `frame`         | View stack frame                        |
+| `n`             | Next step, without entering functions  |
+| `s`             | Step into, possibly entering functions |
+
+#### VSCode Debugging
+1. Start qemu in command line as shown above.
+2. In the `.vscode` folder at the project root, open or create `launch.json` and paste the following configuration:
+
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "kernel-debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "miDebuggerServerAddress": "127.0.0.1:1234",
+            "program": "${workspaceFolder}/vmlinux",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "logging": {
+                "engineLogging": false
+            },
+            "MIMode": "gdb",
+            "miDebuggerPath" : "/root/.cargo/bin/rust-gdb",
+            "setupCommands": [
+                {
+                    "description": "set language rust",
+                    "text": "set lang rust",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
+```
+
+Set breakpoints by clicking on the line number and start debugging with F5.
+
+#### Using GDB Commands in VSCode
+Enter GDB commands in the DEBUG CONSOLE with `-exec {gdb command}`.
+
+### Appendix
+
+#### Kernel Panic and Infinite Reboot
+To disable this feature:
+
+1. **Change QEMU Options**: Add `-no-reboot` to the QEMU run options.
+2. **Modify Compilation Options**: In `make menuconfig`, under `Rust Hacking`, adjust `Panic timeout` to a higher number.
+
+#### Analyzing Kernel Panic
+1. **Using VSCode**: The debugger will stop at the error location during a panic.
+2. **Using GDB or VSCode Debug Console**: Use `info symbol <address>` to find the symbol at a specific address.
+
+This guide provides a comprehensive approach to debugging with GDB and VSCode, including setting up the environment, running QEMU for debugging, and analyzing kernel panics.
 
 ### Debug in the raspi
 
