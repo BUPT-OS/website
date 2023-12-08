@@ -17,4 +17,4 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-<img src="/architecture.png" width="70%" height="50%">
+<img href="architecture.png" width="70%" height="50%">
