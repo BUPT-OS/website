@@ -30,7 +30,7 @@ Here are some guides about the tools we daily used in the kernel world.
 
 ### tutorial
 
-TODO: add the vedio link
+We have a [video](https://www.bilibili.com/video/BV1TC4y1X7Et/?spm_id_from=333.337.search-card.all.click)(in chinese) about how to use the basic function of qemu.
 
 ### snapshot
 
