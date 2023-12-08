@@ -20,17 +20,19 @@ seo:
 
 # Tutorial
 
+If you not only want to use RROS but also want to develop RROS, you can use this tutorial!
+
 > If you are new to the kernel world and are not familiar with the tools like, qemu, gdb, git, and b4, you can have a look at [here](https://bupt-os.github.io/website/docs/tutotial/learn). Remeber learn by doing. you can skip this for now. When you need to use one of these, go back here.
 
 ## Prepare the development environment
 
 Prepare your self with a [proper environment](https://bupt-os.github.io/website/docs/tutotial/environment).
 
-## Compile && Run
+<!-- ## Compile && Run
 
-[Get started](https://bupt-os.github.io/website/docs/tutotial/run) with the compile method and simple qemu commands.
+[Get started](https://bupt-os.github.io/website/docs/tutotial/run) with the compile method and simple qemu commands. -->
 
-## File system
+## Build File system
 
 Equip RROS with powerful [filesystem](https://bupt-os.github.io/website/docs/tutotial/raspi).
 

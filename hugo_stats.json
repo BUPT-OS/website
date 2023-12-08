@@ -43,6 +43,7 @@
       "script",
       "section",
       "small",
+      "source",
       "span",
       "stop",
       "strong",
@@ -58,7 +59,8 @@
       "time",
       "title",
       "tr",
-      "ul"
+      "ul",
+      "video"
     ],
     "classes": [
       "DocSearch-Label",
@@ -216,6 +218,7 @@
       "px-0",
       "query-no-results",
       "reading-time",
+      "responsive-video",
       "rounded",
       "rounded-pill",
       "row",
@@ -261,9 +264,12 @@
       "analyzing-kernel-panic",
       "appendix",
       "b4",
+      "background-knowledge",
       "bindgen",
       "bison",
+      "boot-the-rros-on-qemu",
       "build--run",
+      "build-file-system",
       "burning-the-raspberry-pi-system",
       "buttonColorMode",
       "common-gdb-commands",
@@ -273,7 +279,6 @@
       "debug-in-the-qemu",
       "debug-in-the-raspi",
       "debug-rros",
-      "debugging",
       "deploy-rros-on-the-raspi",
       "deploy-the-rros-in-the-raspi",
       "docker",
@@ -281,7 +286,7 @@
       "emails",
       "entering-menuconfig",
       "environment",
-      "file-system",
+      "file-system-size-adjustment",
       "format-for-submissions",
       "further-reading",
       "gccg",
@@ -310,6 +315,7 @@
       "offcanvasNavSection",
       "offcanvasNavSectionLabel",
       "prepare-the-development-environment",
+      "prerequisite",
       "qemu",
       "query",
       "requirements-build",
@@ -318,7 +324,9 @@
       "requirements-develop",
       "requirements-qemu",
       "rros-kernel",
+      "run-a-real-time-program-on-rros",
       "run-rros-in-the-qemu",
+      "run-your-program-on-rros",
       "rust-toolchain",
       "satellite-scenario-fortification",
       "search-form",
@@ -339,10 +347,13 @@
       "socialMenu",
       "steps-for-contribution",
       "toc",
+      "toy-file-system-made-with-busybox",
       "tutorial",
       "using-gdb-commands-in-vscode",
       "using-gdb-for-remote-debugging",
-      "vscode-debugging"
+      "using-mature-file-systems",
+      "vscode-debugging",
+      "write-a-hello-world-program"
     ]
   }
 }
