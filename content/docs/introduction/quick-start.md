@@ -130,6 +130,7 @@ On Linux (Debian-like distros), do the following:
 </video>
 
 ### prerequisite
+
 Before you start, ensure your environment is adequately prepared. You will need:
 * A compiled kernel image of RROS (located in arch/arm64/boot/Image)
 * A filesystem (ramdisk or other Linux distribution filesystem)
@@ -139,6 +140,10 @@ We have made modifications to libevl; compile it or download it from our [libevl
 
 You may need:
 * QEMU (version 7.0+ for 9p filesystem usage)
+TODO: add the requirements of RROS. 
+
+If you don't have a proper environment, you can follow our [environment document](https://bupt-os.github.io/website/docs/tutorial/environment/).
+
 
 ### Write a Hello World program
 You can choose either compile the program on host system or on the target system(RROS). In this tutorial, we provide a version
