@@ -10,7 +10,7 @@ categories: []
 tags: []
 contributors: []
 pinned: false
-homepage: false
+toc: true
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)
