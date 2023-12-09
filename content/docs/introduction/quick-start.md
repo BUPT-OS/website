@@ -71,7 +71,7 @@ On Linux (Debian-like distros), do the following:
    Kernel Features ---> Bupt real-time core
    ```
 
-   YYou might need to disable the option `Module versioning support` to enable `Rust support`:
+   You might need to disable the option `Module versioning support` to enable `Rust support`:
 
    ```
    Enable loadable module support ---> Module versioning support.
