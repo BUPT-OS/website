@@ -20,4 +20,4 @@ seo:
 RROS is a dual-kernel OS, consisting of a real-time kernel (in Rust) and a general-purpose kernel (Linux). RROS is compatible with almost all native Linux programs and offers real-time performance superior to RT-Linux. It is also being experimented with as the host OS for in-orbit satellites ([Tiansuan Project](http://www.tiansuan.org.cn/)).
 
 The architecture shows as following:
-<img src="../architecture.png" width="70%" height="50%">
+<img src="../architecture.jpg" >
