@@ -26,6 +26,6 @@ On November 30, 2023, Hongyu Li delivered a presentation at the Xenomai Workshop
 
 | <img src="../2.jpg" alt="Audience asked some questions"> | 
 |:--:| 
-| A audience asked some questions |
+| An audience asked some questions |
 ||
 
