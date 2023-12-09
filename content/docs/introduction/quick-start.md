@@ -139,8 +139,9 @@ Before you start, ensure your environment is adequately prepared. You will need:
 We have made modifications to libevl; compile it or download it from our [libevl release]().
 
 You may need:
-* QEMU (version 7.0+ for 9p filesystem usage)
-TODO: add the requirements of RROS. 
+* CLANG (version <15, 13.0.1 is tested to work well)
+* QEMU (version 7.0+ for 9p filesystem usage, 7.1 is tested to work well)
+* GDB (multiarch version, 12.1 is tested to work well)
 
 If you don't have a proper environment, you can follow our [environment document](https://bupt-os.github.io/website/docs/tutorial/environment/).
 
