@@ -38,7 +38,7 @@ Current interns:
 - [XiangKai Qiu](https://github.com/shtiy2023).
 
 Other contributors (mostly retired from RROS now):
-- [Bowen Zhang](https://github.com/Pettttter1). He contributed to timer&&clock/memory/sched subsystems, and the improvement in dynamic memory allcations of RROS. As one of the inital members of this project, he has already graduted from our group as a master. Good luck on his further work!
-- [Guiying Li](https://github.com/GuiyinLi). He supported the camera via opencv in RROS and tried to backport the libcamera librry to RROS. He also explored to call Rust structers in C to write realtime drivers. He was our intern before. Hopes he get luck on his PHD journey!
+- [Bowen Zhang](https://github.com/Pettttter1). He contributed to timer&&clock/memory/sched subsystems, and the improvement in dynamic memory allcations of RROS. As one of the inital members of this project, he has graduated with master degree in Jul, 2023.
+- [Guiying Li](https://github.com/GuiyinLi). He supported the camera via opencv in RROS and tried to backport the libcamera librry to RROS. He also explored to call Rust structers in C to write realtime drivers.
 
 
