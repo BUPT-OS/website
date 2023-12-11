@@ -1,5 +1,5 @@
 ---
-title: "Tutorial"
+title: "About the tutorial"
 description: ""
 summary: ""
 date: 2023-12-08T02:07:47+08:00
@@ -17,8 +17,6 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-
-# Tutorial
 
 If you not only want to use RROS but also want to develop RROS, you can use this tutorial!
 

@@ -18,8 +18,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-# Debug RROS
-
 ### Debug in the qemu
 
 When debugging, you might need to lower the compilation level. The provided `.config` file should already be configured for this, but if not, you can manually configure it.

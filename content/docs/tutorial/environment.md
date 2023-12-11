@@ -1,6 +1,6 @@
 ---
-title: "environment"
-description: "how to do"
+title: "Setup the Environment"
+description: "how to setup the environment"
 summary: ""
 date: 2023-11-25T13:48:54+08:00
 lastmod: 2023-11-25T13:48:54+08:00
@@ -17,8 +17,6 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-
-# Environment
 
 You can have the environment either with docker or build yourself.
 

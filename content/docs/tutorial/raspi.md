@@ -1,5 +1,5 @@
 ---
-title: "Raspi"
+title: "Deploy RROS on the Raspberry Pi"
 description: ""
 summary: ""
 date: 2023-12-08T00:34:39+08:00
@@ -18,7 +18,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-# Deploy RROS on the raspi
 
 > Check whether you have these hardwares before getting start.
 > Hardware Requirements:
@@ -31,7 +30,7 @@ seo:
 > - SD card
 > - SD card reader
 
-## Burning the Raspberry Pi System:
+## Burning the RROS to Raspberry Pi:
 
 1. **Download Raspberry Pi Imager**:
    - Visit the official Raspberry Pi website and download the Raspberry Pi Imager.

@@ -1,5 +1,5 @@
 ---
-title: "Learn"
+title: "Kernel Tools"
 description: ""
 summary: ""
 date: 2023-12-08T00:10:22+08:00
@@ -17,8 +17,6 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-
-# Learn the kernel tools
 
 Here are some guides about the tools we daily used in the kernel world.
 
