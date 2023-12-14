@@ -29,3 +29,8 @@ On November 30, 2023, Hongyu Li delivered a presentation at the Xenomai Workshop
 | An audience asked some questions |
 ||
 
+
+| <img src="../20231214152139.jpg" alt="RROS group members with Jan Kiszka"> | 
+|:--:| 
+| RROS group members with Jan Kiszka |
+||
