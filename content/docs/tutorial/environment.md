@@ -71,7 +71,7 @@ Docker can be installed directly on windows/linux/mac, mainly refer to [official
 
 2. After the installation is complete, we provide two ways to obtain the docker image that owns the environment.
    - Open the command line window, use the `docker pull TODO:[add a docker image link] ` command to pull the rros docker image. Then use `docker run -itd --security-opt seccomp=unconfined --name rros_dev TODO:[add a docker image link] /bin/bash` to run a container named rros_lab.
-   - Use the [Dockerfile](###Dockerfile) that we provide. Copy the content of [Dockerfile](###Dockerfile) to file named `Dockerfile` on your project path, use the `docker build -t rros .` command to build the rros docker image. Then use `docker run -itd --security-opt seccomp=unconfined --name rros_dev rros /bin/bash`
+   - Use the [Dockerfile](#Dockerfile) that we provide. Copy the content of [Dockerfile](#Dockerfile) to file named `Dockerfile` on your project path, use the `docker build -t rros .` command to build the rros docker image. Then use `docker run -itd --security-opt seccomp=unconfined --name rros_dev rros /bin/bash`
 
 3. Finally, we use vscode to complete the subsequent experiments.
 - If your docker is running on your local machine, not a remote Linux server, just install the `dev-container` plug-in in the vscode application market:
@@ -163,7 +163,8 @@ This section covers the installation of the compilation toolchain.
 
 **Note**: If setting up the environment on a server, it's crucial to use Docker and avoid using `apt` directly on the server.
 
-### Dockerfile
+<h3 id="Dockerfile"> Dockerfile </h3>
+
 ```dockerfile
 FROM ubuntu:22.04
 
