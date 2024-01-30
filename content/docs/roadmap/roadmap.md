@@ -49,6 +49,8 @@ In the realm of `factory`, a discernible disparity with linux-evl remains. RROS 
 |basic-xbuf|√|
 |simple-clone|√|
 |detach-self|√|
+|poll-close|√|
+|poll-nested|√|
 
 ## Satellite Scenario Fortification
 
