@@ -51,6 +51,18 @@ In the realm of `factory`, a discernible disparity with linux-evl remains. RROS 
 |detach-self|√|
 |poll-close|√|
 |poll-nested|√|
+|monitor-deadlock|√|
+|monitor-event|√|
+|monitor-pi-deadlock|√|
+|monitor-pi|√|
+|monitor-pp-dynamic|√|
+|monitor-pp-lower|√|
+|monitor-pp-nested|√|
+|monitor-pp-pi|√|
+|monitor-pp-raise|√|
+|monitor-pp-tryenter|√|
+|monitor-wait-multiple|√|
+
 
 ## Satellite Scenario Fortification
 
