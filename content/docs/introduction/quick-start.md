@@ -39,6 +39,12 @@ On Linux (Debian-like distros), do the following:
    rustup toolchain install beta-2021-06-23-x86_64-unknown-linux-gnu
    ```
 
+   Install the `bindgen@=0.56.0`:
+
+   ```bash
+   cargo install --locked --version 0.56.0 bindgen
+   ```
+
    Set the rust toolchain for this project:
 
    ```bash
@@ -52,7 +58,7 @@ On Linux (Debian-like distros), do the following:
    rustup component add rust-src
    ```
    
-3. Select compile options
+4. Select compile options
 
    Create a default configuration:
 
@@ -77,7 +83,7 @@ On Linux (Debian-like distros), do the following:
    Enable loadable module support ---> Module versioning support.
    ```
 
-4. Compile the kernel
+5. Compile the kernel
 
    ```bash
    export CROSS_COMPILE=aarch64-linux-gnu-
@@ -95,7 +101,7 @@ On Linux (Debian-like distros), do the following:
 
    And move `broadcom`, `lib`, `overlays`, and `Image` to the boot partition of the SD card.
 
-5. Run on simulator
+6. Run on simulator
 
    You need a filesystem to boot the kernel on QEMU. 
 
