@@ -66,21 +66,7 @@ On Linux (Debian-like distros), do the following:
    export CROSS_COMPILE=aarch64-linux-gnu-
    export ARCH=arm64
 
-   make LLVM=1 defconfig
-   make LLVM=1 menuconfig
-   ```
-
-   select the following options:
-
-   ```
-   General Setup --->  Rust Support
-   Kernel Features ---> Bupt real-time core
-   ```
-
-   You might need to disable the option `Module versioning support` to enable `Rust support`:
-
-   ```
-   Enable loadable module support ---> Module versioning support.
+   make LLVM=1 rros_defconfig
    ```
 
 5. Compile the kernel
