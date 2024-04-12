@@ -160,7 +160,7 @@ LIBEVL ?= /example/libevl
 
 CFLAGS  =  -I.                    \
            -I$(LIBEVL)/include
-LDFLAGS = $(LIBEVL)/lib/libevl-0.a -lrt -static
+LDFLAGS = $(LIBEVL)/lib/libevl-0.a -lrt -lpthread -static 
 TARGETS = demo
 
 all: $(TARGETS)
